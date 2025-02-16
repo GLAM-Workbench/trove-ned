@@ -5,3 +5,15 @@ pandas
 requests
 altair
 jupyter-archive
+tqdm
+beautifulsoup4
+lxml
+requests-cache
+sqlite-utils
+PyMuPDF
+ipywidgets
+python-slugify
+datasette
+datasette-template-sql
+datasette-template-request
+jupyter-server-proxy

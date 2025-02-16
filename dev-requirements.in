@@ -12,3 +12,5 @@ giturlparse
 requests
 python-dotenv
 jupyterlab-code-formatter
+datasette
+gitpython
