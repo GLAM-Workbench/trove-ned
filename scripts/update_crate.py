@@ -185,9 +185,10 @@ def get_file_stats(datafile, local_path):
         size = stats.st_size
         date = datetime.datetime.fromtimestamp(stats.st_mtime).strftime("%Y-%m-%d")
         rows = 0
-        with local_file.open("r") as df:
-            for line in df:
-                rows += 1
+        if local_file.name.endswith(".csv"):
+            with local_file.open("r") as df:
+                for line in df:
+                    rows += 1
     elif datafile.startswith("http"):
         # I don't think I want to download the whole file, so set to None
         rows = None

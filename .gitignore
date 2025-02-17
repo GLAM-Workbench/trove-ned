@@ -5,3 +5,10 @@ requirements-tocheck.in
 dev-requirements.txt
 .idea
 .env
+*.ndjson
+downloads/*
+Untitled*
+draft*
+*.sqlite
+*.db
+*.csv
