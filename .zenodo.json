@@ -1,42 +1,41 @@
 {
-    "language": "eng",
-    "license": "MIT",
-    "title": "GLAM-Workbench/trove-ned",
-    "related_identifiers": [
-      {
-        "scheme": "url",
-        "identifier": "https://github.com/GLAM-Workbench/trove-ned/tree/v0.0.0",
-        "relation": "isDerivedFrom",
-        "resource_type": "software"
-      },
-      {
-        "scheme": "url",
-        "identifier": "https://glam-workbench.net/trove-ned/",
-        "relation": "isDocumentedBy",
-        "resource_type": "publication-softwaredocumentation"
-      },
-      {
-        "scheme": "url",
-        "identifier": "https://glam-workbench.net/",
-        "relation": "isPartOf",
-        "resource_type": "other"
-      }
-    ],
-    "version": "v0.0.0",
-    "upload_type": "software",
-    "keywords": [
-      "digital humanities",
-      "Jupyter",
-      "GLAM Workbench"
-    ],
-    "publication_date": "2025-02-05",
-    "creators": [
+  "language": "eng",
+  "license": "MIT",
+  "title": "GLAM-Workbench/trove-ned",
+  "related_identifiers": [
     {
-        "name": "Sherratt, Tim",
-        "orcid": "https://orcid.org/0000-0001-7956-4498"
+      "scheme": "url",
+      "identifier": "https://github.com/GLAM-Workbench/trove-ned/tree/v1.0.0",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    },
+    {
+      "scheme": "url",
+      "identifier": "https://glam-workbench.net/trove-ned/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-softwaredocumentation"
+    },
+    {
+      "scheme": "url",
+      "identifier": "https://glam-workbench.net/",
+      "relation": "isPartOf",
+      "resource_type": "other"
     }
-],
-    "access_right": "open",
-    "description": ""
-  }
-  
+  ],
+  "version": "v1.0.0",
+  "upload_type": "software",
+  "keywords": [
+    "digital humanities",
+    "Jupyter",
+    "GLAM Workbench"
+  ],
+  "publication_date": "2025-02-18",
+  "creators": [
+    {
+      "name": "Sherratt, Tim",
+      "orcid": "https://orcid.org/0000-0001-7956-4498"
+    }
+  ],
+  "access_right": "open",
+  "description": "<p>CURRENT VERSION: v1.0.0</p> <p>Tools to use and explore publications submitted to Trove through the National eDeposit service.</p> <p>For more information and documentation see the <a href=\"https://glam-workbench.net/trove-ned\">Trove NED</a> section of the <a href=\"https://glam-workbench.net\">GLAM Workbench</a>.</p> <h2 id=\"notebooks\">Notebooks</h2> <ul> <li>Create a searchable database from issues of a NED periodical</li> <li>Harvest details of periodicals submitted to Trove through the National edeposit scheme (NED)</li> </ul> <h2 id=\"associated-datasets\">Associated datasets</h2> <ul> <li><a href=\"https://github.com/GLAM-Workbench/trove-ned-periodicals-data\">trove-ned-periodicals-data</a></li> <li><a href=\"https://github.com/GLAM-Workbench/trove-ned-periodicals\">trove-ned-periodicals</a></li> </ul> <hr /> <p>Created by <a href=\"https://timsherratt.au\">Tim Sherratt</a> for the <a href=\"https://glam-workbench.net\">GLAM Workbench</a></p>"
+}
