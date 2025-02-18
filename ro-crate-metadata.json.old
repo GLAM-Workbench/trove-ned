@@ -58,88 +58,6 @@
             }
         },
         {
-            "@id": "https://glam-workbench.net/trove-ned",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net/"
-            },
-            "name": "Trove National eDeposit (NED)",
-            "url": "https://glam-workbench.net/trove-ned"
-        },
-        {
-            "@id": "https://glam-workbench.net/",
-            "@type": "CreativeWork",
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "description": "A collection of tools, tutorials, examples, and hacks to help researchers work with data from galleries, libraries, archives, and museums (the GLAM sector).",
-            "name": "GLAM Workbench",
-            "url": "https://glam-workbench.net/"
-        },
-        {
-            "@id": "https://orcid.org/0000-0001-7956-4498",
-            "@type": "Person",
-            "mainEntityOfPage": "https://timsherratt.au",
-            "name": "Sherratt, Tim",
-            "orcid": "https://orcid.org/0000-0001-7956-4498"
-        },
-        {
-            "@id": "create_version_v1_0_0",
-            "@type": "UpdateAction",
-            "actionStatus": {
-                "@id": "http://schema.org/CompletedActionStatus"
-            },
-            "endDate": "2025-02-18",
-            "name": "Create version v1.0.0"
-        },
-        {
-            "@id": "https://spdx.org/licenses/MIT",
-            "@type": "CreativeWork",
-            "name": "MIT License",
-            "url": "https://spdx.org/licenses/MIT.html"
-        },
-        {
-            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
-            "@type": "CreativeWork",
-            "name": "CC0 Public Domain Dedication",
-            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
-        },
-        {
-            "@id": "http://rightsstatements.org/vocab/NKC/1.0/",
-            "@type": "CreativeWork",
-            "description": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determination could not be made.",
-            "name": "No Known Copyright",
-            "url": "http://rightsstatements.org/vocab/NKC/1.0/"
-        },
-        {
-            "@id": "http://rightsstatements.org/vocab/CNE/1.0/",
-            "@type": "CreativeWork",
-            "description": "The copyright and related rights status of this Item has not been evaluated.",
-            "name": "Copyright Not Evaluated",
-            "url": "http://rightsstatements.org/vocab/CNE/1.0/"
-        },
-        {
-            "@id": "https://www.python.org/downloads/release/python-31012/",
-            "@type": [
-                "ComputerLanguage",
-                "SoftwareApplication"
-            ],
-            "name": "Python 3.10.12",
-            "url": "https://www.python.org/downloads/release/python-31012/",
-            "version": "3.10.12"
-        },
-        {
-            "@id": "https://glam-workbench.net/trove-ned/create-searchable-database/",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net"
-            },
-            "name": "Create a searchable database from issues of a NED periodical",
-            "url": "https://glam-workbench.net/trove-ned/create-searchable-database/"
-        },
-        {
             "@id": "create-searchable-database.ipynb",
             "@type": [
                 "File",
@@ -164,25 +82,6 @@
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
             "url": "https://github.com/GLAM-Workbench/trove-ned/blob/master/create-searchable-database.ipynb"
-        },
-        {
-            "@id": "https://glam-workbench.net/trove-ned/the-triangle/",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net"
-            },
-            "name": "Searchable database of content from The Triangle",
-            "url": "https://glam-workbench.net/trove-ned/the-triangle/"
-        },
-        {
-            "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals",
-            "@type": "Dataset",
-            "description": "Examples of SQLite databases created by extracting and indexing the text content of NED periodicals. Includes custom metadata files for Datasette configuration.",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-ned/the-triangle/"
-            },
-            "name": "trove-ned-periodicals",
-            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals"
         },
         {
             "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/the-triangle.db",
@@ -216,36 +115,6 @@
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/metadata.json"
         },
         {
-            "@id": "create-searchable-database_run_0",
-            "@type": "CreateAction",
-            "actionStatus": {
-                "@id": "http://schema.org/CompletedActionStatus"
-            },
-            "endDate": "2025-02-16",
-            "instrument": {
-                "@id": "create-searchable-database.ipynb"
-            },
-            "name": "Run of notebook: create-searchable-database.ipynb",
-            "query": "nla.obj-3121636851",
-            "result": [
-                {
-                    "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/the-triangle.db"
-                },
-                {
-                    "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/metadata.json"
-                }
-            ]
-        },
-        {
-            "@id": "https://glam-workbench.net/trove-journals/harvest-ned-periodicals/",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net"
-            },
-            "name": null,
-            "url": "https://glam-workbench.net/trove-journals/harvest-ned-periodicals/"
-        },
-        {
             "@id": "harvest-ned-periodicals.ipynb",
             "@type": [
                 "File",
@@ -270,25 +139,6 @@
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
             "url": "https://github.com/GLAM-Workbench/trove-ned/blob/master/harvest-ned-periodicals.ipynb"
-        },
-        {
-            "@id": "https://glam-workbench.net/trove-journals/trove-ned-periodicals-data/",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net"
-            },
-            "name": "Details of periodicals submitted to Trove through the National edeposit scheme (NED)",
-            "url": "https://glam-workbench.net/trove-journals/trove-ned-periodicals-data/"
-        },
-        {
-            "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data",
-            "@type": "Dataset",
-            "description": "This dataset contains details of periodical titles and issues submitted to the Trove through the NLA's National edeposit scheme. It includes CSV-formatted lists of titles and issues, and an SQLite database created for use with Datasette-Lite.",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-journals/trove-ned-periodicals-data/"
-            },
-            "name": "trove-ned-periodicals-data",
-            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data"
         },
         {
             "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.csv",
@@ -341,16 +191,144 @@
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.db"
         },
         {
+            "@id": "https://glam-workbench.net/trove-ned",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net/"
+            },
+            "name": "Trove NED",
+            "url": "https://glam-workbench.net/trove-ned"
+        },
+        {
+            "@id": "https://glam-workbench.net/",
+            "@type": "CreativeWork",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "description": "A collection of tools, tutorials, examples, and hacks to help researchers work with data from galleries, libraries, archives, and museums (the GLAM sector).",
+            "name": "GLAM Workbench",
+            "url": "https://glam-workbench.net/"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "mainEntityOfPage": "https://timsherratt.au",
+            "name": "Sherratt, Tim",
+            "orcid": "https://orcid.org/0000-0001-7956-4498"
+        },
+        {
+            "@id": "https://spdx.org/licenses/MIT",
+            "@type": "CreativeWork",
+            "name": "MIT License",
+            "url": "https://spdx.org/licenses/MIT.html"
+        },
+        {
+            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "@type": "CreativeWork",
+            "name": "CC0 Public Domain Dedication",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/NKC/1.0/",
+            "@type": "CreativeWork",
+            "description": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determination could not be made.",
+            "name": "No Known Copyright",
+            "url": "http://rightsstatements.org/vocab/NKC/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/CNE/1.0/",
+            "@type": "CreativeWork",
+            "description": "The copyright and related rights status of this Item has not been evaluated.",
+            "name": "Copyright Not Evaluated",
+            "url": "http://rightsstatements.org/vocab/CNE/1.0/"
+        },
+        {
+            "@id": "https://www.python.org/downloads/release/python-31012/",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.10.12",
+            "url": "https://www.python.org/downloads/release/python-31012/",
+            "version": "3.10.12"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-ned/create-searchable-database/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Create a searchable database from issues of a NED periodical",
+            "url": "https://glam-workbench.net/trove-ned/create-searchable-database/"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-ned/the-triangle/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Searchable database of content from The Triangle",
+            "url": "https://glam-workbench.net/trove-ned/the-triangle/"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals",
+            "@type": "Dataset",
+            "description": "Examples of SQLite databases created by extracting and indexing the text content of NED periodicals. Includes custom metadata files for Datasette configuration.",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-ned/the-triangle/"
+            },
+            "name": "trove-ned-periodicals",
+            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals"
+        },
+        {
+            "@id": "create-searchable-database_run_0",
+            "@type": "CreateAction",
+            "endDate": "2025-02-16",
+            "object": [],
+            "result": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/the-triangle.db"
+                },
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/metadata.json"
+                }
+            ]
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-journals/harvest-ned-periodicals/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Harvest details of periodicals submitted to Trove through the National edeposit scheme (NED)",
+            "url": "https://glam-workbench.net/trove-journals/harvest-ned-periodicals/"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-journals/trove-ned-periodicals-data/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Details of periodicals submitted to Trove through the National edeposit scheme (NED)",
+            "url": "https://glam-workbench.net/trove-journals/trove-ned-periodicals-data/"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data",
+            "@type": "Dataset",
+            "description": "This dataset contains details of periodical titles and issues submitted to the Trove through the NLA's National edeposit scheme. It includes CSV-formatted lists of titles and issues, and an SQLite database created for use with Datasette-Lite.",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-journals/trove-ned-periodicals-data/"
+            },
+            "name": "trove-ned-periodicals-data",
+            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data"
+        },
+        {
             "@id": "harvest-ned-periodicals_run_0",
             "@type": "CreateAction",
-            "actionStatus": {
-                "@id": "http://schema.org/CompletedActionStatus"
-            },
             "endDate": "2025-02-16",
-            "instrument": {
-                "@id": "harvest-ned-periodicals.ipynb"
-            },
-            "name": "Run of notebook: harvest-ned-periodicals.ipynb",
+            "object": [],
             "result": [
                 {
                     "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.csv"
@@ -362,6 +340,15 @@
                     "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.db"
                 }
             ]
+        },
+        {
+            "@id": "create_version_v1_0_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2025-02-18",
+            "name": "Create version v1.0.0"
         }
     ]
 }
