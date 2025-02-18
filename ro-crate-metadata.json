@@ -10,7 +10,7 @@
                 }
             ],
             "datePublished": "2025-02-18T02:05:45+00:00",
-            "description": "A GLAM Workbench repository",
+            "description": "Tools to use and explore publications submitted to Trove through the National eDeposit service.",
             "hasPart": [
                 {
                     "@id": "create-searchable-database.ipynb"
