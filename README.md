@@ -1,5 +1,7 @@
 # trove-ned
 
+CURRENT VERSION: v1.0.0
+
 Tools to use and explore publications submitted to Trove through the National eDeposit service.
 
 For more information and documentation see the [Trove NED](https://glam-workbench.net/trove-ned) section of the [GLAM Workbench](https://glam-workbench.net).
