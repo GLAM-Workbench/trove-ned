@@ -284,7 +284,7 @@
         },
         {
             "@id": "create-searchable-database_run_0",
-            "@type": "Thing",
+            "@type": "CreateAction",
             "endDate": "2025-02-16",
             "object": [],
             "result": [
@@ -326,7 +326,7 @@
         },
         {
             "@id": "harvest-ned-periodicals_run_0",
-            "@type": "Thing",
+            "@type": "CreateAction",
             "endDate": "2025-02-16",
             "object": [],
             "result": [
