@@ -10,7 +10,6 @@ rdflib > 6.0.1 # To avoid problems with rdflib-json
 rocrate
 giturlparse
 requests
-python-dotenv
 jupyterlab-code-formatter
 datasette
 gitpython

@@ -17,3 +17,5 @@ datasette
 datasette-template-sql
 datasette-template-request
 jupyter-server-proxy
+python-dotenv
+arrow
