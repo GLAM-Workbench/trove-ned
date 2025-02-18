@@ -9,8 +9,8 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2025-02-17T03:52:09+00:00",
-            "description": "Tools to use and explore publications submitted to Trove through the National eDeposit service.",
+            "datePublished": "2025-02-18T02:05:45+00:00",
+            "description": "A GLAM Workbench repository",
             "hasPart": [
                 {
                     "@id": "create-searchable-database.ipynb"
@@ -144,7 +144,7 @@
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
-            "description": "",
+            "description": "Trove contains thousands of publications submitted through the National eDeposit Service (NED). When I last checked, this included 8,572 periodicals comprising a total of 179,510 issues! Amongst the periodicals are many local and community newsletters that provide a valuable record of everyday life \u2013 often filling the gap left by the demise of local newspapers. Some of these periodicals have access constraints, but most can be viewed online in Trove. However, unlike Trove's own digitised periodicals or newspapers, the contents of these publications don't appear in Trove search results. This notebook provides a workflow through which you can extract text from all the issues of a NED publication and build a fulltext-search-enabled database for exploration of its contents.",
             "encodingFormat": "application/x-ipynb+json",
             "mainEntityOfPage": {
                 "@id": "https://glam-workbench.net/trove-ned/create-searchable-database/"
@@ -156,6 +156,25 @@
             "url": "https://github.com/GLAM-Workbench/trove-ned/blob/master/create-searchable-database.ipynb"
         },
         {
+            "@id": "https://glam-workbench.net/trove-ned/the-triangle/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Searchable database of content from The Triangle",
+            "url": "https://glam-workbench.net/trove-ned/the-triangle/"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals",
+            "@type": "Dataset",
+            "description": "Examples of SQLite databases created by extracting and indexing the text content of NED periodicals. Includes custom metadata files for Datasette configuration.",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-ned/the-triangle/"
+            },
+            "name": "trove-ned-periodicals",
+            "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals"
+        },
+        {
             "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/the-triangle.db",
             "@type": [
                 "File",
@@ -163,8 +182,11 @@
             ],
             "contentSize": 41496576,
             "dateModified": "2025-02-16",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals"
+            },
             "name": "the-triangle.db",
-            "sdDatePublished": "2025-02-17",
+            "sdDatePublished": "2025-02-18",
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/the-triangle.db"
         },
         {
@@ -176,8 +198,11 @@
             "contentSize": 986,
             "dateModified": "2025-02-16",
             "encodingFormat": "application/json",
+            "isPartOf": {
+                "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals"
+            },
             "name": "metadata.json",
-            "sdDatePublished": "2025-02-17",
+            "sdDatePublished": "2025-02-18",
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals/blob/main/dbs/the-triangle/metadata.json"
         },
         {
@@ -268,7 +293,7 @@
                 "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data"
             },
             "name": "ned-periodicals.csv",
-            "sdDatePublished": "2025-02-17",
+            "sdDatePublished": "2025-02-18",
             "size": 8572,
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.csv"
         },
@@ -285,7 +310,7 @@
                 "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data"
             },
             "name": "ned-periodical-issues.csv",
-            "sdDatePublished": "2025-02-17",
+            "sdDatePublished": "2025-02-18",
             "size": 179511,
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodical-issues.csv"
         },
@@ -302,7 +327,7 @@
                 "@id": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data"
             },
             "name": "ned-periodicals.db",
-            "sdDatePublished": "2025-02-17",
+            "sdDatePublished": "2025-02-18",
             "url": "https://github.com/GLAM-Workbench/trove-ned-periodicals-data/raw/main/ned-periodicals.db"
         },
         {

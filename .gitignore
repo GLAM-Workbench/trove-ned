@@ -12,3 +12,4 @@ draft*
 *.sqlite
 *.db
 *.csv
+data-rocrate
